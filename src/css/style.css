@@ -1,0 +1,9 @@
+ul,
+li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.menu__item {
+    margin-left: 50px;
+}
