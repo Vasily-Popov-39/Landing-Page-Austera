@@ -17,7 +17,6 @@ li {
     padding: 50px 100px;
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 999;
-    
 }
 .menu__item {
     margin-left: 50px;
@@ -43,7 +42,6 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0 100%;
-    
 }
 .header__title{
     text-align: center;
@@ -81,4 +79,29 @@ header{
     border: 1px solid #fff;
     background: transparent;
     transition:  all .3s;
+}
+/* Услуги*/
+.title{
+    text-align: center;
+    font-weight: 400;
+    font-size: 48px;
+    padding: 90px 0;
+}
+.services__item{
+    max-width: 306px;
+    padding: 78px 0;
+}
+.text{
+    font-size: 14px;
+}
+.services__item h3{
+font-size: 24px;
+padding-top: 56px;
+padding-bottom: 32px;
+font-weight: 400;
+}
+.services__item img{
+    width: 80px;
+    height: 78px;
+    
 }
