@@ -62,7 +62,7 @@ header{
     max-width: 670px;
     font-size: 24px;
 }
-.button{
+.button-header{
     width: 216px;
     height: 52px;
     border-radius: 30px;
@@ -75,7 +75,7 @@ header{
     color: #fff;
     margin-bottom: 300px;
 }
-.button:hover{
+.button-header:hover{
     border: 1px solid #fff;
     background: transparent;
     transition:  all .3s;
@@ -103,5 +103,61 @@ font-weight: 400;
 .services__item img{
     width: 80px;
     height: 78px;
+}
+.button{
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    padding: 16px 25px;
+    border-radius: 30px;
+    border: 1px solid #2ebaee;
+    background: #2ebaee;
+    outline: none;
+    cursor: pointer;
+    min-width: 150px;
+}
+.button:hover{
+    background: transparent;
+    color: #2ebaee;
+}
+.services__title-black{
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+}
+.services__title-white{
+    font-size: 30px;
+    color: #000000;
+}
+.services__text{
+    width: 500px;
+    padding-top: 58px;
+    padding-bottom: 83px;
+}
+.services__img-right{
+  position: relative;
+  right: 80px;
+  
+}
+.services__img-left{
     
+}
+.pt{
+    padding-top: 180px;
+}
+.button-white{
+    background: #fff;
+    border: 1px solid #fff;
+    color: #2ebaee;
+}
+.button-white:hover{
+    background: transparent;
+    color: #fff;
+}
+.services{
+    background-image: linear-gradient(150deg, #fff 50%, #2ebaee 50%);
+    background-repeat: no-repeat;
+    padding-bottom: 146px;
+    background-position: right bottom;
+    background-position-y: 150px;
 }
