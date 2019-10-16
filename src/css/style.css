@@ -51,7 +51,7 @@ header{
     font-weight: 400;
     font-size: 72px;
 }
-.header__title span{
+.header__title span, .team__title span{
     color: #2ebaee;
 }
 .header__text{
@@ -212,4 +212,12 @@ font-weight: 400;
    text-align: center;
    transform: translate(-50%, -50%);
    cursor: pointer;
+}
+/*Команда*/
+.team{
+    padding:  112px 0;
+}
+.team__title{
+    font-size: 41px;
+    color: #000000;
 }
