@@ -216,8 +216,23 @@ font-weight: 400;
 /*Команда*/
 .team{
     padding:  112px 0;
+   
 }
 .team__title{
     font-size: 41px;
     color: #000000;
+}
+.team__card{
+    padding-top: 112px;
+}
+.team__card img{
+    max-width: 234px;
+    height: auto;
+   
+}
+.team__card h3{
+    padding: 20px 0;
+}
+.team__card p{
+    padding-bottom: 20px;
 }
