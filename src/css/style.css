@@ -51,7 +51,7 @@ header{
     font-weight: 400;
     font-size: 72px;
 }
-.header__title span, .team__title span{
+.header__title span, .team__title span, footer span{
     color: #2ebaee;
 }
 .header__text{
@@ -235,4 +235,83 @@ font-weight: 400;
 }
 .team__card p{
     padding-bottom: 20px;
+}
+/*Футер*/
+footer{
+    padding: 134px 0;
+    background: linear-gradient(rgba(2, 2, 2, 0.85), rgba(0, 0, 0, 0.85)),url(/src/img/footer.png);
+}
+footer h2{
+    color: #fff;
+    padding-bottom: 75px;
+    font-size: 59px;
+    font-weight: 700;
+}
+.footer__text{
+    color:#878787;
+}
+footer h4{
+    color: #878787;
+    padding-top: 22px;
+    font-weight: 700;
+}
+.social span{
+   margin-right: 20px;
+   margin-top: 35px;
+   cursor: pointer;
+}
+.social span:nth-child(1) .fa-circle{
+    color: #55acee;
+}
+.social span:nth-child(2) .fa-circle{
+    color: #3b5998;
+}
+.social span:nth-child(3) .fa-circle{
+    color: #cc2127;
+}
+.social span:nth-child(4) .fa-circle{
+    color: #dd4b39;
+}
+.social span:nth-child(5) .fa-circle{
+    color: #e23047;
+}
+.social span:nth-child(1):hover .fa-stack-1x{
+    transition:ease-in .2s;
+    font-size: 2em;
+}
+.social span:nth-child(1):hover .fa-circle{
+    transition:ease-in .2s;
+    color: transparent;
+}
+.social span:nth-child(2):hover .fa-stack-1x{
+    transition:ease-in .2s;
+    font-size: 2em;
+}
+.social span:nth-child(2):hover .fa-circle{
+    transition:ease-in .2s;
+    color: transparent;
+}
+.social span:nth-child(3):hover .fa-stack-1x{
+    transition:ease-in .2s;
+    font-size: 2em;
+}
+.social span:nth-child(3):hover .fa-circle{
+    transition:ease-in .2s;
+    color: transparent;
+}
+.social span:nth-child(4):hover .fa-stack-1x{
+    transition:ease-in .2s;
+    font-size: 2em;
+}
+.social span:nth-child(4):hover .fa-circle{
+    transition:ease-in .2s;
+    color: transparent;
+}
+.social span:nth-child(5):hover .fa-stack-1x{
+    transition:ease-in .2s;
+    font-size: 2em;
+}
+.social span:nth-child(5):hover .fa-circle{
+    transition:ease-in .2s;
+    color: transparent;
 }
